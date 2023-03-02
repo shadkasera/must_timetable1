@@ -5,17 +5,20 @@ class WelcomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  SafeArea(
+    return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.grey,
-         appBar: AppBar(
-          iconTheme: const IconThemeData(color: Colors.white),
+        backgroundColor: Colors.grey[400],
+        appBar: AppBar(
+          iconTheme: const IconThemeData(
+            color: Colors.white,
+          ),
           backgroundColor: Colors.blue,
           title: const Text(
             'MUST TIMETABLE',
             style: TextStyle(color: Colors.white),
           ),
-          leading: IconButton(
+          leadingWidth: 80,
+         leading: IconButton(
             onPressed: () {
               // Action to perform when the button is pressed
             },
@@ -63,7 +66,8 @@ class WelcomeScreen extends StatelessWidget {
           ],
           centerTitle: true,
         ),
-      body: Container(),),
+        body: Container(),
+      ),
     );
   }
 }
