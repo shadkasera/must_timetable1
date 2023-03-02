@@ -69,7 +69,7 @@ class WelcomeScreen extends StatelessWidget {
         
         body: RichText(
                 text: const TextSpan(
-                  text: 'WELCOME! \n\n',
+                  text: 'WELCOME TO MUST TIMETABLES! \n\n',
                   style: TextStyle(
                     fontSize: 34,
                     color: Colors.black,
