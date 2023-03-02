@@ -66,6 +66,7 @@ class WelcomeScreen extends StatelessWidget {
           ],
           centerTitle: true,
         ),
+        
         body: RichText(
                 text: const TextSpan(
                   text: 'WELCOME! \n\n',
