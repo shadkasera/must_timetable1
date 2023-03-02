@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:must_timetable1/home_screen.dart';
+import 'package:must_timetable1/welcome_screen.dart';
 
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.grey,
       ),
       debugShowCheckedModeBanner: false,
-      home: const HomeScreen(),
+      home: const WelcomeScreen(),
       
       
     );
