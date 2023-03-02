@@ -66,7 +66,23 @@ class WelcomeScreen extends StatelessWidget {
           ],
           centerTitle: true,
         ),
-        body: Container(),
+        body: RichText(
+                text: const TextSpan(
+                  text: 'WELCOME! \n\n',
+                  style: TextStyle(
+                    fontSize: 34,
+                    color: Colors.black,
+                  ),
+                  children: [
+                    TextSpan(
+                      text:
+                          'MUST timetables have been put in different categories of view. You can view a timetable by room, Lecturer or class. Proceed to view your preffered timetable by the type from the buttons below.',
+                      style: TextStyle(fontSize: 24, color: Colors.black),
+                    ),
+                  ],
+                ),
+                textAlign: TextAlign.center,
+              ),
       ),
     );
   }
