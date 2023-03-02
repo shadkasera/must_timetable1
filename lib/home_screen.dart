@@ -18,7 +18,7 @@ class HomeScreen extends StatelessWidget {
           ),
           leading: IconButton(
             onPressed: () {
-              // Action to perform when the button is pressed
+               Scaffold.of(context).openDrawer();// Action to perform when the button is pressed
             },
             icon: const Icon(
               Icons.menu,
